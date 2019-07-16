@@ -45,7 +45,7 @@ namespace RITEQAutomation
                 throw new Exception("login Failed"+ex.Message.ToString());
             }
 
-           Thread.Sleep(10000);
+           Thread.Sleep(11000);
             DropBox dpbox = new DropBox(driver);//intializing dropbox page object
             String folderName = "Test" + DateTime.Now.ToString("yyyyMMddHHmmss");
 
